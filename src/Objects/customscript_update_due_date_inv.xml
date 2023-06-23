@@ -1,0 +1,23 @@
+<massupdatescript scriptid="customscript_update_due_date_inv">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>update Due Date on Invoices</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/updateDueDateInvoice.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_due_date_inv">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <recordtype>INVOICE</recordtype>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+    </scriptdeployment>
+  </scriptdeployments>
+</massupdatescript>
